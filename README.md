@@ -1,8 +1,8 @@
 # Trading_Bot_using_Reinforcement_learning
 This repository contains the python code for the implementation of a trading bot using Reinforcement Learning Algorithms.<br/>
 A reinforcement learning problem is mathematically modelled as a Markov Decision Process(which follows the Markov Assumption i.e the next state depends only on the immediate previous state),the Main elements in which include: 1)Agent 2)Environment.<br/>
-Apart from these there are several other elements which help us to describe the interaction between agent and environment namely:-1)Episode 2)State 3)Action 4)Reward 5)Return 6)Q function 7) policy etc. some of which I will describe them below.<br/>
-**AGENT**:- The job of the agent is to interact with the environment and learn to maximise the expected returns through experience.<br/>
+Apart from these there are several other elements which help us to describe the interaction between agent and environment namely:-1)Episode <br/> 2)State <br/>3)Action <br/>4)Reward <br/>5)Return <br/>6)Q function <br/>7) policy etc. <br/>some of which I will describe them below.<br/>
+* **AGENT**:- The job of the agent is to interact with the environment and learn to maximise the expected returns through experience.<br/>
 **ENVIRONMENT**:- The simulation that the agent interacts with. In an MDP, the most general environment is modelled using the state-transition probability i.e p(s',r|s,a).<br/>
 **STATE**:- A particular configuration of the environment.(Maybe discrete or infinite.)<br/>
 **EPISODE**:- A sequence of all successful states(which leads to maximising the return) after which the simulation is concluded.<br/>
