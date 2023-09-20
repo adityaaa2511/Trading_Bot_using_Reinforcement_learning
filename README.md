@@ -1,6 +1,6 @@
 # Trading_Bot_using_Reinforcement_learning
 This repository contains the python code for the implementation of a trading bot using Reinforcement Learning Algorithms.<br/>
-*A reinforcement learning problem is mathematically modelled as a Markov Decision Process(which follows the Markov Assumption i.e the next state depends only on the immediate previous state),the Main elements in which include: 1)Agent 2)Environment.<br/>*
+*A **Reinforcement learning** problem is mathematically modelled as a Markov Decision Process(which follows the Markov Assumption i.e the next state depends only on the immediate previous state),the Main elements in which include: 1)Agent 2)Environment.<br/>*
 Apart from these there are several other elements which help us to describe the interaction between agent and environment namely:-<br/> 
 1)Episode <br/> 
 2)State <br/>
