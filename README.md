@@ -9,7 +9,7 @@ Apart from these there are several other elements which help us to describe the 
 6)Q function <br/>
 7) policy etc. <br/>
 some of which I will describe them below.<br/>
-**AGENT**:- The job of the agent is to interact with the environment and learn to maximise the expected returns through experience.<br/>
+***AGENT**:- The job of the agent is to interact with the environment and learn to maximise the expected returns through experience.<br/>
 **ENVIRONMENT**:- The simulation that the agent interacts with. In an MDP, the most general environment is modelled using the state-transition probability i.e p(s',r|s,a).<br/>
 **STATE**:- A particular configuration of the environment.(Maybe discrete or infinite.)<br/>
 **EPISODE**:- A sequence of all successful states(which leads to maximising the return) after which the simulation is concluded.<br/>
