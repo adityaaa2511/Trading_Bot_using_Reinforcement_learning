@@ -39,12 +39,12 @@ some of which I will describe below.<br/>
 **NOW LETS DESCRIBE THE CODE**
 * The Environment(Stock Market simulation) mimics the OpenAI GYM API.
 * The next elements are inspired from the research paper "Practical Deep Reinforcement Learning Approach for Stock Trading".We will be using 3 companies namely:- 1)Apple 2)Motorola 3)Starbucks.
-* **STATE**:-
+* **STATE**:-<br/>
 &ensp; * How many shares of each stock we own.<br/>
 &ensp; * Current Price of each stock.<br/>
 &ensp; * How much remaining cash we have left.<br/>
-* **ACTION**:-
+* **ACTION**:-<br/>
 &ensp; * BUY/SELL/HOLD.<br/>
 &ensp; * **SIMPLIFICATIONS**:-We ignore any transition costs.We will sell all shares of the stock that we own.We will buy as many stocks as we can.We will sell before buying to obtain more in-hand cash.<br/>
-* **REWARD**:-
+* **REWARD**:-<br/>
 &ensp; * Change in portfolio value from one state to another.Total price of shares owned plus the in-hand cash. 
