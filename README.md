@@ -8,7 +8,7 @@ Apart from these there are several other elements which help us to describe the 
 &ensp; 4)Reward <br/>
 &ensp; 5)Return <br/>
 &ensp; 6)Q function <br/>
-&ensp; 7) policy etc. <br/>
+&ensp; 7)Policy etc. <br/>
 some of which I will describe below.<br/>
 * **AGENT**:- The job of the agent is to interact with the environment and learn to maximise the expected returns through experience.<br/>
 * **ENVIRONMENT**:- The simulation that the agent interacts with. In an (yes it should an, not a😁)MDP, the most general environment is modelled using the state-transition probability i.e p(s',r|s,a).<br/>
